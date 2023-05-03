@@ -1,0 +1,1721 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice",
+        "workspaceDir": "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice",
+        "sources": [
+            "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala",
+            "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala-3",
+            "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/java",
+            "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/target/scala-3.2.2/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_3/2.0.13/zio_3-2.0.13.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-streams_3/2.0.13/zio-streams_3-2.0.13.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging-slf4j_3/2.1.12/zio-logging-slf4j_3-2.1.12.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-http_3/3.0.0-RC1/zio-http_3-3.0.0-RC1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-direct_3/1.0.0-RC7/zio-direct_3-1.0.0-RC7.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-sql_3/4.6.0.1/quill-sql_3-4.6.0.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc_3/4.6.0.1/quill-jdbc_3-4.6.0.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc-zio_3/4.6.0.1/quill-jdbc-zio_3-4.6.0.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-util_3/4.6.0/quill-util_3-4.6.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jasync_3/4.6.0.1/quill-jasync_3-4.6.0.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-test_3/2.0.13/zio-test_3-2.0.13.jar",
+            "/home/renghen/.cache/coursier/v1/https/raw.github.com/pniederw/expecty/master/m2repo/org/expecty/expecty/0.10/expecty-0.10.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-internal-macros_3/2.0.13/zio-internal-macros_3-2.0.13.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_3/2.0.13/zio-stacktracer_3-2.0.13.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_3/2.3.1/izumi-reflect_3-2.3.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging_3/2.1.12/zio-logging_3-2.1.12.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.91.Final/netty-handler-proxy-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final-linux-x86_64.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final-linux-aarch_64.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final-osx-x86_64.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final-osx-aarch_64.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema_3/0.4.8/zio-schema_3-0.4.8.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-json_3/0.4.8/zio-schema-json_3-0.4.8.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-native-io_uring/0.0.19.Final/netty-incubator-transport-native-io_uring-0.0.19.Final-linux-x86_64.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.6.6/pprint_3-0.6.6.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.2.8/sourcecode_3-0.2.8.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.2.14/fansi_3-0.2.14.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.1/scala-java8-compat_3-1.0.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.9.0/scala-collection-compat_3-2.9.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/suzaku/boopickle_3/1.4.0/boopickle_3-1.4.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-engine_3/4.6.0/quill-engine_3-4.6.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_3/3.9.4/scala-logging_3-3.9.4.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-zio_3/4.6.0.1/quill-zio_3-4.6.0.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-json_3/0.3.0/zio-json_3-0.3.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.1.0/scalafmt-core_2.13-3.1.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jasync-sql/jasync-common/2.0.6/jasync-common-2.0.6.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/1.1.2/portable-scala-reflect_2.13-1.1.2.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_3/2.3.1/izumi-reflect-thirdparty-boopickle-shaded_3-2.3.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-parser_3/0.1.9/zio-parser_3-0.1.9.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.91.Final/netty-buffer-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.91.Final/netty-codec-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.91.Final/netty-codec-socks-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-macros_3/0.4.8/zio-schema-macros_3-0.4.8.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude_3/1.0.0-RC16/zio-prelude_3-1.0.0-RC16.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-constraintless_3/0.3.1/zio-constraintless_3-0.3.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-derivation_3/0.4.8/zio-schema-derivation_3-0.4.8.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.19.Final/netty-incubator-transport-classes-io_uring-0.0.19.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/takayahilton/sql-formatter_2.13/1.2.1/sql-formatter_2.13-1.2.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/magnolia1_3/magnolia_3/1.1.5/magnolia_3-1.1.5.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.1.0/scalafmt-sysops_2.13-3.1.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.9.15/metaconfig-core_2.13-0.9.15.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.4.29/scalameta_2.13-4.4.29.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.9.15/metaconfig-typesafe-config_2.13-0.9.15.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jasync-sql/jasync-pool/2.0.6/jasync-pool-2.0.6.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.4.2/kotlinx-coroutines-core-jvm-1.4.2.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.20/kotlin-stdlib-jdk8-1.4.20.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/microutils/kotlin-logging/1.7.6/kotlin-logging-1.7.6.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.4.2/kotlinx-coroutines-jdk8-1.4.2.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.91.Final/netty-resolver-4.1.91.Final.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude-macros_3/1.0.0-RC16/zio-prelude-macros_3-1.0.0-RC16.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.2/paiges-core_2.13-0.4.2.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.4.29/parsers_2.13-4.4.29.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.6/scalap-2.13.6.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.20/kotlin-reflect-1.4.20.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.20/kotlin-stdlib-jdk7-1.4.20.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.4.2/kotlinx-coroutines-core-1.4.2.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.4.29/trees_2.13-4.4.29.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.4.29/common_2.13-4.4.29.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-v2_2.13/2.3.1/fastparse-v2_2.13-2.3.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
+            "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar"
+        ],
+        "out": "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/.bloop/root",
+        "classesDir": "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/.bloop/root/scala-3/classes",
+        "resources": [
+            "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/resources",
+            "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/target/scala-3.2.2/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "3.2.2",
+            "options": [
+                "-Xsemanticdb",
+                "-semanticdb-target",
+                "/home/renghen/workspace/scala/scala3/zio2/zio2-pratice/target/scala-3.2.2/meta"
+            ],
+            "jars": [
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.2.2/scala3-compiler_3-3.2.2.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.2.2/scala3-interfaces-3.2.2.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.2.2/tasty-core_3-3.2.2.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.3.0-scala-1/scala-asm-9.3.0-scala-1.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.2.2/scaladoc_3-3.2.2.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.2.2/scala3-tasty-inspector_3-3.2.2.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.8.2/liqp-0.8.2.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.13.3/jackson-dataformat-yaml-2.13.3.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr4-runtime/4.7.2/antlr4-runtime-4.7.2.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.1/jackson-datatype-jsr310-2.12.1.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/ua/co/k/strftime4j/1.0.5/strftime4j-1.0.5.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.30/snakeyaml-1.30.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar",
+                "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/renghen/.sdkman/candidates/java/20.0.1-tem",
+                "options": [
+                    "-Duser.dir=/home/renghen/workspace/scala/scala3/zio2/zio2-pratice"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala3-library_3",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala3-library_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2.jar"
+                        },
+                        {
+                            "name": "scala3-library_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.2.2/scala3-library_3-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio_3",
+                    "version": "2.0.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_3/2.0.13/zio_3-2.0.13.jar"
+                        },
+                        {
+                            "name": "zio_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio_3/2.0.13/zio_3-2.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-streams_3",
+                    "version": "2.0.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-streams_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-streams_3/2.0.13/zio-streams_3-2.0.13.jar"
+                        },
+                        {
+                            "name": "zio-streams_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-streams_3/2.0.13/zio-streams_3-2.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-logging-slf4j_3",
+                    "version": "2.1.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-logging-slf4j_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging-slf4j_3/2.1.12/zio-logging-slf4j_3-2.1.12.jar"
+                        },
+                        {
+                            "name": "zio-logging-slf4j_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging-slf4j_3/2.1.12/zio-logging-slf4j_3-2.1.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-http_3",
+                    "version": "3.0.0-RC1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-http_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-http_3/3.0.0-RC1/zio-http_3-3.0.0-RC1.jar"
+                        },
+                        {
+                            "name": "zio-http_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-http_3/3.0.0-RC1/zio-http_3-3.0.0-RC1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-direct_3",
+                    "version": "1.0.0-RC7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-direct_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-direct_3/1.0.0-RC7/zio-direct_3-1.0.0-RC7.jar"
+                        },
+                        {
+                            "name": "zio-direct_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-direct_3/1.0.0-RC7/zio-direct_3-1.0.0-RC7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-sql_3",
+                    "version": "4.6.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-sql_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-sql_3/4.6.0.1/quill-sql_3-4.6.0.1.jar"
+                        },
+                        {
+                            "name": "quill-sql_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-sql_3/4.6.0.1/quill-sql_3-4.6.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-jdbc_3",
+                    "version": "4.6.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-jdbc_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc_3/4.6.0.1/quill-jdbc_3-4.6.0.1.jar"
+                        },
+                        {
+                            "name": "quill-jdbc_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc_3/4.6.0.1/quill-jdbc_3-4.6.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-jdbc-zio_3",
+                    "version": "4.6.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-jdbc-zio_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc-zio_3/4.6.0.1/quill-jdbc-zio_3-4.6.0.1.jar"
+                        },
+                        {
+                            "name": "quill-jdbc-zio_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jdbc-zio_3/4.6.0.1/quill-jdbc-zio_3-4.6.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-util_3",
+                    "version": "4.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-util_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-util_3/4.6.0/quill-util_3-4.6.0.jar"
+                        },
+                        {
+                            "name": "quill-util_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-util_3/4.6.0/quill-util_3-4.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-jasync_3",
+                    "version": "4.6.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-jasync_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jasync_3/4.6.0.1/quill-jasync_3-4.6.0.1.jar"
+                        },
+                        {
+                            "name": "quill-jasync_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-jasync_3/4.6.0.1/quill-jasync_3-4.6.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-test_3",
+                    "version": "2.0.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-test_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-test_3/2.0.13/zio-test_3-2.0.13.jar"
+                        },
+                        {
+                            "name": "zio-test_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-test_3/2.0.13/zio-test_3-2.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.expecty",
+                    "name": "expecty",
+                    "version": "0.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "expecty",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "b264fcdd3c6cb40c1bea5f623cde886e18d094ec"
+                            },
+                            "path": "/home/renghen/.cache/coursier/v1/https/raw.github.com/pniederw/expecty/master/m2repo/org/expecty/expecty/0.10/expecty-0.10.jar"
+                        },
+                        {
+                            "name": "expecty",
+                            "classifier": "sources",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "515e833503284b8be00b4ed51b6876e33e8bdabc"
+                            },
+                            "path": "/home/renghen/.cache/coursier/v1/https/raw.github.com/pniederw/expecty/master/m2repo/org/expecty/expecty/0.10/expecty-0.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-internal-macros_3",
+                    "version": "2.0.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-internal-macros_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-internal-macros_3/2.0.13/zio-internal-macros_3-2.0.13.jar"
+                        },
+                        {
+                            "name": "zio-internal-macros_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-internal-macros_3/2.0.13/zio-internal-macros_3-2.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-stacktracer_3",
+                    "version": "2.0.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-stacktracer_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_3/2.0.13/zio-stacktracer_3-2.0.13.jar"
+                        },
+                        {
+                            "name": "zio-stacktracer_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-stacktracer_3/2.0.13/zio-stacktracer_3-2.0.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "izumi-reflect_3",
+                    "version": "2.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "izumi-reflect_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_3/2.3.1/izumi-reflect_3-2.3.1.jar"
+                        },
+                        {
+                            "name": "izumi-reflect_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect_3/2.3.1/izumi-reflect_3-2.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-logging_3",
+                    "version": "2.1.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-logging_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging_3/2.1.12/zio-logging_3-2.1.12.jar"
+                        },
+                        {
+                            "name": "zio-logging_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-logging_3/2.1.12/zio-logging_3-2.1.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.36",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.91.Final/netty-codec-http-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.91.Final/netty-handler-proxy-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.91.Final/netty-handler-proxy-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-epoll",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-epoll",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-epoll/4.1.91.Final/netty-transport-native-epoll-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-kqueue",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-kqueue",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-kqueue",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-kqueue/4.1.91.Final/netty-transport-native-kqueue-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema_3",
+                    "version": "0.4.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema_3/0.4.8/zio-schema_3-0.4.8.jar"
+                        },
+                        {
+                            "name": "zio-schema_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema_3/0.4.8/zio-schema_3-0.4.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema-json_3",
+                    "version": "0.4.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema-json_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-json_3/0.4.8/zio-schema-json_3-0.4.8.jar"
+                        },
+                        {
+                            "name": "zio-schema-json_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-json_3/0.4.8/zio-schema-json_3-0.4.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "pprint_3",
+                    "version": "0.6.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pprint_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.6.6/pprint_3-0.6.6.jar"
+                        },
+                        {
+                            "name": "pprint_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_3/0.6.6/pprint_3-0.6.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_3",
+                    "version": "0.2.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sourcecode_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.2.8/sourcecode_3-0.2.8.jar"
+                        },
+                        {
+                            "name": "sourcecode_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_3/0.2.8/sourcecode_3-0.2.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "fansi_3",
+                    "version": "0.2.14",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fansi_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.2.14/fansi_3-0.2.14.jar"
+                        },
+                        {
+                            "name": "fansi_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_3/0.2.14/fansi_3-0.2.14-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-java8-compat_3",
+                    "version": "1.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-java8-compat_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.1/scala-java8-compat_3-1.0.1.jar"
+                        },
+                        {
+                            "name": "scala-java8-compat_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_3/1.0.1/scala-java8-compat_3-1.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_3",
+                    "version": "2.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.9.0/scala-collection-compat_3-2.9.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_3/2.9.0/scala-collection-compat_3-2.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.suzaku",
+                    "name": "boopickle_3",
+                    "version": "1.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "boopickle_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/suzaku/boopickle_3/1.4.0/boopickle_3-1.4.0.jar"
+                        },
+                        {
+                            "name": "boopickle_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/suzaku/boopickle_3/1.4.0/boopickle_3-1.4.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-engine_3",
+                    "version": "4.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-engine_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-engine_3/4.6.0/quill-engine_3-4.6.0.jar"
+                        },
+                        {
+                            "name": "quill-engine_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-engine_3/4.6.0/quill-engine_3-4.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.scala-logging",
+                    "name": "scala-logging_3",
+                    "version": "3.9.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-logging_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_3/3.9.4/scala-logging_3-3.9.4.jar"
+                        },
+                        {
+                            "name": "scala-logging_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/scala-logging/scala-logging_3/3.9.4/scala-logging_3-3.9.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.zaxxer",
+                    "name": "HikariCP",
+                    "version": "3.4.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "HikariCP",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar"
+                        },
+                        {
+                            "name": "HikariCP",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.getquill",
+                    "name": "quill-zio_3",
+                    "version": "4.6.0.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "quill-zio_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-zio_3/4.6.0.1/quill-zio_3-4.6.0.1.jar"
+                        },
+                        {
+                            "name": "quill-zio_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/getquill/quill-zio_3/4.6.0.1/quill-zio_3-4.6.0.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-json_3",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-json_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-json_3/0.3.0/zio-json_3-0.3.0.jar"
+                        },
+                        {
+                            "name": "zio-json_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-json_3/0.3.0/zio-json_3-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "scalafmt-core_2.13",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafmt-core_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.1.0/scalafmt-core_2.13-3.1.0.jar"
+                        },
+                        {
+                            "name": "scalafmt-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.13/3.1.0/scalafmt-core_2.13-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.jasync-sql",
+                    "name": "jasync-common",
+                    "version": "2.0.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jasync-common",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jasync-sql/jasync-common/2.0.6/jasync-common-2.0.6.jar"
+                        },
+                        {
+                            "name": "jasync-common",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jasync-sql/jasync-common/2.0.6/jasync-common-2.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.portable-scala",
+                    "name": "portable-scala-reflect_2.13",
+                    "version": "1.1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "portable-scala-reflect_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/1.1.2/portable-scala-reflect_2.13-1.1.2.jar"
+                        },
+                        {
+                            "name": "portable-scala-reflect_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/1.1.2/portable-scala-reflect_2.13-1.1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "izumi-reflect-thirdparty-boopickle-shaded_3",
+                    "version": "2.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "izumi-reflect-thirdparty-boopickle-shaded_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_3/2.3.1/izumi-reflect-thirdparty-boopickle-shaded_3-2.3.1.jar"
+                        },
+                        {
+                            "name": "izumi-reflect-thirdparty-boopickle-shaded_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/izumi-reflect-thirdparty-boopickle-shaded_3/2.3.1/izumi-reflect-thirdparty-boopickle-shaded_3-2.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-parser_3",
+                    "version": "0.1.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-parser_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-parser_3/0.1.9/zio-parser_3-0.1.9.jar"
+                        },
+                        {
+                            "name": "zio-parser_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-parser_3/0.1.9/zio-parser_3-0.1.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-common",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-common",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.91.Final/netty-common-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-buffer",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-buffer",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.91.Final/netty-buffer-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.91.Final/netty-buffer-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.91.Final/netty-transport-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.91.Final/netty-codec-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.91.Final/netty-codec-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.91.Final/netty-handler-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.91.Final/netty-codec-socks-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.91.Final/netty-codec-socks-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-native-unix-common",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-native-unix-common",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-native-unix-common/4.1.91.Final/netty-transport-native-unix-common-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-epoll",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-epoll",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-epoll/4.1.91.Final/netty-transport-classes-epoll-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-transport-classes-kqueue",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-transport-classes-kqueue",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-transport-classes-kqueue",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport-classes-kqueue/4.1.91.Final/netty-transport-classes-kqueue-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema-macros_3",
+                    "version": "0.4.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema-macros_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-macros_3/0.4.8/zio-schema-macros_3-0.4.8.jar"
+                        },
+                        {
+                            "name": "zio-schema-macros_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-macros_3/0.4.8/zio-schema-macros_3-0.4.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-prelude_3",
+                    "version": "1.0.0-RC16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-prelude_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude_3/1.0.0-RC16/zio-prelude_3-1.0.0-RC16.jar"
+                        },
+                        {
+                            "name": "zio-prelude_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude_3/1.0.0-RC16/zio-prelude_3-1.0.0-RC16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-constraintless_3",
+                    "version": "0.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-constraintless_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-constraintless_3/0.3.1/zio-constraintless_3-0.3.1.jar"
+                        },
+                        {
+                            "name": "zio-constraintless_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-constraintless_3/0.3.1/zio-constraintless_3-0.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-schema-derivation_3",
+                    "version": "0.4.8",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-schema-derivation_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-derivation_3/0.4.8/zio-schema-derivation_3-0.4.8.jar"
+                        },
+                        {
+                            "name": "zio-schema-derivation_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-schema-derivation_3/0.4.8/zio-schema-derivation_3-0.4.8-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty.incubator",
+                    "name": "netty-incubator-transport-classes-io_uring",
+                    "version": "0.0.19.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-incubator-transport-classes-io_uring",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.19.Final/netty-incubator-transport-classes-io_uring-0.0.19.Final.jar"
+                        },
+                        {
+                            "name": "netty-incubator-transport-classes-io_uring",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/incubator/netty-incubator-transport-classes-io_uring/0.0.19.Final/netty-incubator-transport-classes-io_uring-0.0.19.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.2/config-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.takayahilton",
+                    "name": "sql-formatter_2.13",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sql-formatter_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/takayahilton/sql-formatter_2.13/1.2.1/sql-formatter_2.13-1.2.1.jar"
+                        },
+                        {
+                            "name": "sql-formatter_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/takayahilton/sql-formatter_2.13/1.2.1/sql-formatter_2.13-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.softwaremill.magnolia1_3",
+                    "name": "magnolia_3",
+                    "version": "1.1.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "magnolia_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/magnolia1_3/magnolia_3/1.1.5/magnolia_3-1.1.5.jar"
+                        },
+                        {
+                            "name": "magnolia_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/magnolia1_3/magnolia_3/1.1.5/magnolia_3-1.1.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "scalafmt-sysops_2.13",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafmt-sysops_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.1.0/scalafmt-sysops_2.13-3.1.0.jar"
+                        },
+                        {
+                            "name": "scalafmt-sysops_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.13/3.1.0/scalafmt-sysops_2.13-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.geirsson",
+                    "name": "metaconfig-core_2.13",
+                    "version": "0.9.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metaconfig-core_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.9.15/metaconfig-core_2.13-0.9.15.jar"
+                        },
+                        {
+                            "name": "metaconfig-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.9.15/metaconfig-core_2.13-0.9.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "scalameta_2.13",
+                    "version": "4.4.29",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalameta_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.4.29/scalameta_2.13-4.4.29.jar"
+                        },
+                        {
+                            "name": "scalameta_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.4.29/scalameta_2.13-4.4.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.geirsson",
+                    "name": "metaconfig-typesafe-config_2.13",
+                    "version": "0.9.15",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metaconfig-typesafe-config_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.9.15/metaconfig-typesafe-config_2.13-0.9.15.jar"
+                        },
+                        {
+                            "name": "metaconfig-typesafe-config_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.9.15/metaconfig-typesafe-config_2.13-0.9.15-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.jasync-sql",
+                    "name": "jasync-pool",
+                    "version": "2.0.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jasync-pool",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jasync-sql/jasync-pool/2.0.6/jasync-pool-2.0.6.jar"
+                        },
+                        {
+                            "name": "jasync-pool",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/jasync-sql/jasync-pool/2.0.6/jasync-pool-2.0.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains.kotlinx",
+                    "name": "kotlinx-coroutines-core-jvm",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlinx-coroutines-core-jvm",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.4.2/kotlinx-coroutines-core-jvm-1.4.2.jar"
+                        },
+                        {
+                            "name": "kotlinx-coroutines-core-jvm",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.4.2/kotlinx-coroutines-core-jvm-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains.kotlin",
+                    "name": "kotlin-stdlib-jdk8",
+                    "version": "1.4.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlin-stdlib-jdk8",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.20/kotlin-stdlib-jdk8-1.4.20.jar"
+                        },
+                        {
+                            "name": "kotlin-stdlib-jdk8",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.4.20/kotlin-stdlib-jdk8-1.4.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.microutils",
+                    "name": "kotlin-logging",
+                    "version": "1.7.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlin-logging",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/microutils/kotlin-logging/1.7.6/kotlin-logging-1.7.6.jar"
+                        },
+                        {
+                            "name": "kotlin-logging",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/microutils/kotlin-logging/1.7.6/kotlin-logging-1.7.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains.kotlinx",
+                    "name": "kotlinx-coroutines-jdk8",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlinx-coroutines-jdk8",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.4.2/kotlinx-coroutines-jdk8-1.4.2.jar"
+                        },
+                        {
+                            "name": "kotlinx-coroutines-jdk8",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-jdk8/1.4.2/kotlinx-coroutines-jdk8-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-resolver",
+                    "version": "4.1.91.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-resolver",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.91.Final/netty-resolver-4.1.91.Final.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.91.Final/netty-resolver-4.1.91.Final-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "dev.zio",
+                    "name": "zio-prelude-macros_3",
+                    "version": "1.0.0-RC16",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zio-prelude-macros_3",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude-macros_3/1.0.0-RC16/zio-prelude-macros_3-1.0.0-RC16.jar"
+                        },
+                        {
+                            "name": "zio-prelude-macros_3",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/dev/zio/zio-prelude-macros_3/1.0.0-RC16/zio-prelude-macros_3-1.0.0-RC16-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "paiges-core_2.13",
+                    "version": "0.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paiges-core_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.2/paiges-core_2.13-0.4.2.jar"
+                        },
+                        {
+                            "name": "paiges-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.2/paiges-core_2.13-0.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "parsers_2.13",
+                    "version": "4.4.29",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "parsers_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.4.29/parsers_2.13-4.4.29.jar"
+                        },
+                        {
+                            "name": "parsers_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.4.29/parsers_2.13-4.4.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scalap",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalap",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.6/scalap-2.13.6.jar"
+                        },
+                        {
+                            "name": "scalap",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.6/scalap-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains.kotlin",
+                    "name": "kotlin-reflect",
+                    "version": "1.4.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlin-reflect",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.20/kotlin-reflect-1.4.20.jar"
+                        },
+                        {
+                            "name": "kotlin-reflect",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.4.20/kotlin-reflect-1.4.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains.kotlin",
+                    "name": "kotlin-stdlib",
+                    "version": "1.4.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlin-stdlib",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20.jar"
+                        },
+                        {
+                            "name": "kotlin-stdlib",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains.kotlin",
+                    "name": "kotlin-stdlib-common",
+                    "version": "1.4.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlin-stdlib-common",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20.jar"
+                        },
+                        {
+                            "name": "kotlin-stdlib-common",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains.kotlin",
+                    "name": "kotlin-stdlib-jdk7",
+                    "version": "1.4.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlin-stdlib-jdk7",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.20/kotlin-stdlib-jdk7-1.4.20.jar"
+                        },
+                        {
+                            "name": "kotlin-stdlib-jdk7",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.4.20/kotlin-stdlib-jdk7-1.4.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains.kotlinx",
+                    "name": "kotlinx-coroutines-core",
+                    "version": "1.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kotlinx-coroutines-core",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.4.2/kotlinx-coroutines-core-1.4.2.jar"
+                        },
+                        {
+                            "name": "kotlinx-coroutines-core",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.4.2/kotlinx-coroutines-core-1.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "trees_2.13",
+                    "version": "4.4.29",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "trees_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.4.29/trees_2.13-4.4.29.jar"
+                        },
+                        {
+                            "name": "trees_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.4.29/trees_2.13-4.4.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.6/scala-compiler-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jetbrains",
+                    "name": "annotations",
+                    "version": "13.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "annotations",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.jar"
+                        },
+                        {
+                            "name": "annotations",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "common_2.13",
+                    "version": "4.4.29",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "common_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.4.29/common_2.13-4.4.29.jar"
+                        },
+                        {
+                            "name": "common_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.4.29/common_2.13-4.4.29-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "fastparse-v2_2.13",
+                    "version": "2.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fastparse-v2_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-v2_2.13/2.3.1/fastparse-v2_2.13-2.3.1.jar"
+                        },
+                        {
+                            "name": "fastparse-v2_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-v2_2.13/2.3.1/fastparse-v2_2.13-2.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jline",
+                    "name": "jline",
+                    "version": "3.19.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jline",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.19.0/jline-3.19.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "5.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "0.6.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.13",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "sources",
+                            "path": "/home/renghen/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

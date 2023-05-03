@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Adding repositories [https://repo1.maven.org/maven2/,https://raw.github.com/pniederw/expecty/master/m2repo/][0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: parsed config (v3.7.3): /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/.scalafmt.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: considering all files (no git)[0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Change report:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Checked: /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/Main.scala, /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/com/rentech/zio2/HelloZio.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Modified: /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/com/rentech/zio2/HelloZio.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Unmodified: /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/Main.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Added: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Removed: [0m
+[0m[[0m[0minfo[0m] [0m[0mscalafmt: Formatting 1 Scala sources (/home/renghen/workspace/scala/scala3/zio2/zio2-pratice)...[0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Unchanged 1 Scala sources[0m

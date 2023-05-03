@@ -1,0 +1,1 @@
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mscalafix[0m) scalafix.sbt.InvalidArgument: "OrganizeImports.removeUnused" is not supported on Scala 3 as the compiler is not providing enough information. Run the rule with "OrganizeImports.removeUnused" set to false to organize imports while keeping potentially unused imports.[0m

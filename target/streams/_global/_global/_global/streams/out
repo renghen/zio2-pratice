@@ -1,0 +1,956 @@
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[10000D[[0m[[0m[0mdebug[0m] [0m[0mscalafmt: parsed config (v3.7.3): /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/.scalafmt.conf[0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: considering all files (no git)[0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Change report:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Checked: /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/Main.scala, /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/com/rentech/zio2/HelloZio.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Modified: /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/Main.scala, /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/com/rentech/zio2/HelloZio.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Unmodified: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Added: /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/Main.scala, /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/com/rentech/zio2/HelloZio.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Removed: [0m
+[0m[[0m[0minfo[0m] [0m[0mscalafmt: Checking 2 Scala sources (/home/renghen/workspace/scala/scala3/zio2/zio2-pratice)...[0m
+[0m[[0m[33mwarn[0m] [0m[0mscalafmt: /home/renghen/workspace/scala/scala3/zio2/zio2-pratice/src/main/scala/com/rentech/zio2/HelloZio.scala isn't formatted properly![0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Unchanged 1 Scala sources[0m
+mt-config_2.12-3.7.3.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.12/3.7.3/scalafmt-config_2.12-3.7.3.pom
+[2K  100.0% [##########] 2.6 KiB (3.7 KiB / s)
+[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.11.1/metaconfig-typesafe-config_2.12-0.11.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.11.1/metaconfig-typesafe-config_2.12-0.11.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.pom
+[2K  100.0% [##########] 2.4 KiB (10.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.11.1/metaconfig-typesafe-config_2.12-0.11.1.pom
+[2K  100.0% [##########] 2.1 KiB (8.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.pom
+[2K  100.0% [##########] 3.5 KiB (13.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.pom
+[2K  100.0% [##########] 1.7 KiB (2.4 KiB / s)
+[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.pom
+[2K   60.4% [######    ] 1.3 KiB (5.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.pom
+[2K  100.0% [##########] 2.2 KiB (8.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.pom
+[2K  100.0% [##########] 3.6 KiB (14.5 KiB / s)
+[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.pom
+[2K    0.0% [          ] 0B (0B / s)
+[2A[10000D[2K[1B[2K[1B[2A[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.12/3.7.3/scalafmt-config_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.11.1/metaconfig-typesafe-config_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-config_2.12/3.7.3/scalafmt-config_2.12-3.7.3.jar
+[2K  100.0% [##########] 9.0 KiB (37.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.11.1/metaconfig-typesafe-config_2.12-0.11.1.jar
+[2K   32.4% [###       ] 5.4 KiB (22.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.11.1/metaconfig-typesafe-config_2.12-0.11.1.jar
+[2K   81.0% [########  ] 13.4 KiB (51.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.12/0.11.1/metaconfig-typesafe-config_2.12-0.11.1.jar
+[2K  100.0% [##########] 16.5 KiB (59.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    0.8% [          ] 16.0 KiB (57.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    0.8% [          ] 16.0 KiB (53.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    0.7% [          ] 16.0 KiB (53.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    1.6% [          ] 32.0 KiB (100.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    0.7% [          ] 16.0 KiB (50.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    1.6% [          ] 32.0 KiB (94.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    1.4% [          ] 32.0 KiB (94.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    1.6% [          ] 32.0 KiB (69.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    1.4% [          ] 32.0 KiB (69.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.0% [          ] 2.7 KiB (12.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    2.4% [          ] 48.0 KiB (100.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    1.4% [          ] 32.0 KiB (66.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.1% [          ] 8.0 KiB (33.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    3.2% [          ] 64.0 KiB (128.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    1.4% [          ] 32.0 KiB (64.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.3% [          ] 16.0 KiB (61.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    3.2% [          ] 64.0 KiB (123.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    2.0% [          ] 48.0 KiB (92.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    0.9% [          ] 6.7 KiB (27.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.3% [          ] 16.0 KiB (56.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    4.0% [          ] 80.0 KiB (148.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    2.7% [          ] 64.0 KiB (118.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    2.0% [          ] 15.5 KiB (58.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.3% [          ] 16.0 KiB (53.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    4.8% [          ] 96.0 KiB (171.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    2.7% [          ] 64.0 KiB (114.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    2.0% [          ] 15.5 KiB (54.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.6% [          ] 32.0 KiB (99.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    4.8% [          ] 96.0 KiB (165.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    3.4% [          ] 80.0 KiB (138.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    2.0% [          ] 15.5 KiB (50.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.6% [          ] 32.0 KiB (93.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    4.8% [          ] 96.0 KiB (160.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    4.1% [          ] 96.0 KiB (160.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    4.0% [          ] 31.5 KiB (96.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.6% [          ] 32.0 KiB (88.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   22.3% [##        ] 10.7 KiB (15.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    5.6% [          ] 112.0 KiB (164.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    4.1% [          ] 96.0 KiB (141.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    4.0% [          ] 31.5 KiB (77.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.6% [          ] 32.0 KiB (72.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   39.1% [###       ] 18.7 KiB (26.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    6.4% [          ] 128.0 KiB (183.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    4.1% [          ] 96.0 KiB (137.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    4.0% [          ] 31.5 KiB (73.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.8% [          ] 48.0 KiB (103.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   50.3% [#####     ] 24.1 KiB (33.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    7.2% [          ] 144.0 KiB (200.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    4.1% [          ] 96.0 KiB (133.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    4.0% [          ] 31.5 KiB (70.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    0.8% [          ] 48.0 KiB (99.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K   77.5% [#######   ] 13.4 KiB (18.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   67.0% [######    ] 32.1 KiB (43.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    8.0% [          ] 160.0 KiB (216.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    4.7% [          ] 112.0 KiB (151.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    4.0% [          ] 31.5 KiB (67.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.1% [          ] 64.0 KiB (127.5 KiB / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/github/bigwheel/util-backports_2.12/2.1/util-backports_2.12-2.1.jar
+[2K  100.0% [##########] 17.3 KiB (22.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   81.0% [########  ] 38.8 KiB (51.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K    9.6% [          ] 192.0 KiB (253.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    6.0% [          ] 47.5 KiB (97.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    5.4% [          ] 128.0 KiB (168.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.4% [          ] 80.0 KiB (153.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   81.0% [########  ] 38.8 KiB (49.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   10.4% [#         ] 208.0 KiB (267.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    6.1% [          ] 144.0 KiB (184.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    6.0% [          ] 47.5 KiB (93.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.4% [          ] 80.0 KiB (147.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   81.0% [########  ] 38.8 KiB (48.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   11.2% [#         ] 224.0 KiB (280.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K    8.1% [          ] 63.5 KiB (120.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    6.8% [          ] 160.0 KiB (200.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.7% [          ] 96.0 KiB (170.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   81.0% [########  ] 38.8 KiB (47.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   11.2% [#         ] 224.0 KiB (273.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   10.1% [#         ] 79.5 KiB (145.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    8.1% [          ] 192.0 KiB (234.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.7% [          ] 96.0 KiB (164.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   81.0% [########  ] 38.8 KiB (46.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   12.2% [#         ] 95.5 KiB (168.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   11.2% [#         ] 224.0 KiB (267.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    8.8% [          ] 208.0 KiB (247.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.7% [          ] 96.0 KiB (159.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   81.0% [########  ] 38.8 KiB (45.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   14.2% [#         ] 111.5 KiB (190.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   11.2% [#         ] 224.0 KiB (260.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K    9.5% [          ] 224.0 KiB (260.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.7% [          ] 96.0 KiB (154.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   81.0% [########  ] 38.8 KiB (44.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   14.2% [#         ] 111.5 KiB (183.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   12.0% [#         ] 240.0 KiB (273.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   10.1% [#         ] 240.0 KiB (273.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.7% [          ] 96.0 KiB (149.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K   86.6% [########  ] 41.5 KiB (46.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   14.2% [#         ] 111.5 KiB (178.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   12.8% [#         ] 256.0 KiB (284.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   10.1% [#         ] 240.0 KiB (267.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    1.7% [          ] 96.0 KiB (145.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-sysops_2.12/3.7.3/scalafmt-sysops_2.12-3.7.3.jar
+[2K  100.0% [##########] 47.9 KiB (52.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   14.4% [#         ] 288.0 KiB (313.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   14.2% [#         ] 111.5 KiB (172.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   10.1% [#         ] 240.0 KiB (261.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    2.0% [          ] 112.0 KiB (164.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   16.0% [#         ] 320.0 KiB (340.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   14.2% [#         ] 111.5 KiB (167.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   10.1% [#         ] 240.0 KiB (255.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    2.4% [          ] 136.3 KiB (194.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   18.4% [#         ] 368.0 KiB (383.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   14.2% [#         ] 111.5 KiB (162.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   10.1% [#         ] 240.0 KiB (250.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    2.7% [          ] 152.3 KiB (210.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   20.0% [#         ] 400.0 KiB (408.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   16.2% [#         ] 127.5 KiB (180.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   11.5% [#         ] 272.0 KiB (277.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    3.0% [          ] 168.3 KiB (226.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   22.3% [##        ] 448.0 KiB (448.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   18.3% [#         ] 143.5 KiB (197.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   12.8% [#         ] 304.0 KiB (304.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    3.3% [          ] 184.3 KiB (241.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   24.7% [##        ] 496.0 KiB (486.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K   20.8% [##        ] 6.7 KiB (24.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   20.3% [##        ] 159.5 KiB (213.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   14.2% [#         ] 336.0 KiB (329.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    3.8% [          ] 216.3 KiB (276.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K   48.0% [####      ] 15.5 KiB (53.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   24.7% [##        ] 496.0 KiB (477.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   24.4% [##        ] 191.5 KiB (250.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   15.5% [#         ] 368.0 KiB (354.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    3.8% [          ] 216.3 KiB (269.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K   64.6% [######    ] 20.8 KiB (67.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   26.4% [##        ] 207.5 KiB (264.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   24.7% [##        ] 496.0 KiB (468.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   16.9% [#         ] 400.0 KiB (377.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    4.1% [          ] 232.3 KiB (282.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K   89.6% [########  ] 28.9 KiB (87.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   28.4% [##        ] 223.5 KiB (277.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   24.7% [##        ] 496.0 KiB (459.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   18.9% [#         ] 448.0 KiB (415.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    4.1% [          ] 232.3 KiB (275.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.12/0.11.1/metaconfig-pprint_2.12-0.11.1.jar
+[2K  100.0% [##########] 32.2 KiB (92.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   32.5% [###       ] 255.5 KiB (309.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   25.5% [##        ] 512.0 KiB (465.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   20.9% [##        ] 496.0 KiB (451.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    4.1% [          ] 232.3 KiB (269.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   32.5% [###       ] 255.5 KiB (302.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   28.5% [##        ] 571.0 KiB (510.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   21.6% [##        ] 512.0 KiB (457.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    4.1% [          ] 232.3 KiB (263.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   32.5% [###       ] 255.5 KiB (295.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   31.7% [###       ] 635.0 KiB (557.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   21.6% [##        ] 512.0 KiB (449.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    4.7% [          ] 264.3 KiB (293.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   34.9% [###       ] 699.0 KiB (603.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   32.5% [###       ] 255.5 KiB (288.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   21.6% [##        ] 512.0 KiB (441.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    5.2% [          ] 296.3 KiB (321.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    1.3% [          ] 16.0 KiB (65.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   38.1% [###       ] 763.0 KiB (647.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   32.5% [###       ] 255.5 KiB (282.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   21.6% [##        ] 512.0 KiB (434.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    5.8% [          ] 328.3 KiB (348.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    1.3% [          ] 16.0 KiB (60.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   42.0% [####      ] 843.0 KiB (703.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   36.6% [###       ] 287.5 KiB (310.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   23.0% [##        ] 544.0 KiB (453.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    6.4% [          ] 360.3 KiB (374.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    2.6% [          ] 32.0 KiB (112.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   46.0% [####      ] 923.0 KiB (757.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   40.7% [####      ] 319.5 KiB (337.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   25.4% [##        ] 603.0 KiB (494.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    7.2% [          ] 408.3 KiB (415.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    5.1% [          ] 64.0 KiB (209.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   50.0% [#####     ] 1003.0 KiB (809.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   44.7% [####      ] 351.5 KiB (363.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   27.5% [##        ] 651.0 KiB (525.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    7.8% [          ] 440.3 KiB (439.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    5.1% [          ] 64.0 KiB (196.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   50.8% [#####     ] 1019.0 KiB (809.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   50.0% [####      ] 392.6 KiB (398.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   30.2% [###       ] 715.0 KiB (567.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    8.6% [          ] 488.3 KiB (477.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    6.4% [          ] 80.0 KiB (231.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   54.0% [#####     ] 424.6 KiB (422.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   50.8% [#####     ] 1019.0 KiB (796.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   32.9% [###       ] 779.0 KiB (609.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    8.9% [          ] 504.3 KiB (484.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    6.4% [          ] 80.0 KiB (219.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   58.1% [#####     ] 456.6 KiB (445.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   50.8% [#####     ] 1019.0 KiB (784.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   35.6% [###       ] 843.0 KiB (649.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    8.9% [          ] 504.3 KiB (474.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    6.4% [          ] 80.0 KiB (207.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   62.2% [######    ] 488.6 KiB (467.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   53.2% [#####     ] 1.0 MiB (808.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   38.9% [###       ] 923.0 KiB (699.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    8.9% [          ] 504.3 KiB (466.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    6.4% [          ] 80.0 KiB (197.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   70.3% [#######   ] 552.6 KiB (518.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   58.8% [#####     ] 1.2 MiB (880.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   42.3% [####      ] 1003.0 KiB (749.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K    8.9% [          ] 504.3 KiB (457.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    6.4% [          ] 80.0 KiB (188.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   70.3% [#######   ] 552.6 KiB (508.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   64.4% [######    ] 1.3 MiB (950.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   44.3% [####      ] 1.0 MiB (773.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   10.0% [#         ] 568.3 KiB (506.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    6.4% [          ] 80.0 KiB (179.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    0.0% [          ] 0B (0B / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   70.8% [#######   ] 1.4 MiB (1.0 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   70.3% [#######   ] 552.6 KiB (499.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   44.3% [####      ] 1.0 MiB (762.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   10.9% [#         ] 616.3 KiB (539.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    6.4% [          ] 80.0 KiB (172.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    3.2% [          ] 16.0 KiB (56.1 KiB / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   76.2% [#######   ] 1.5 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   70.3% [#######   ] 552.6 KiB (490.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   44.3% [####      ] 1.0 MiB (751.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   12.0% [#         ] 680.3 KiB (585.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K    7.7% [          ] 96.0 KiB (197.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    6.3% [          ] 32.0 KiB (104.9 KiB / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   84.2% [########  ] 1.6 MiB (1.2 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   74.4% [#######   ] 584.6 KiB (510.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   44.3% [####      ] 1.0 MiB (740.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   13.1% [#         ] 744.3 KiB (629.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   10.3% [#         ] 128.0 KiB (253.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    6.3% [          ] 32.0 KiB (98.5 KiB / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K   91.8% [######### ] 1.8 MiB (1.2 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   82.5% [########  ] 648.6 KiB (556.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   47.7% [####      ] 1.1 MiB (786.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   14.5% [#         ] 824.3 KiB (685.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   11.6% [#         ] 144.0 KiB (274.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K    9.5% [          ] 48.0 KiB (139.1 KiB / s)
+[2A[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalafmt-core_2.12/3.7.3/scalafmt-core_2.12-3.7.3.jar
+[2K  100.0% [##########] 2.0 MiB (1.3 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K   90.7% [######### ] 712.6 KiB (600.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   51.8% [#####     ] 1.2 MiB (841.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   16.0% [#         ] 904.3 KiB (740.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   14.2% [#         ] 176.0 KiB (322.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   12.6% [#         ] 64.0 KiB (175.3 KiB / s)
+[2A[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/scalameta_2.12/4.7.6/scalameta_2.12-4.7.6.jar
+[2K  100.0% [##########] 785.7 KiB (651.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   55.8% [#####     ] 1.3 MiB (894.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   17.7% [#         ] 1000.3 KiB (805.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   16.7% [#         ] 208.0 KiB (368.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   12.6% [#         ] 64.0 KiB (166.2 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   61.4% [######    ] 1.4 MiB (971.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   19.3% [#         ] 240.0 KiB (410.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   17.9% [#         ] 1016.3 KiB (805.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   12.6% [#         ] 64.0 KiB (158.0 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   66.8% [######    ] 1.5 MiB (1.0 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   19.3% [#         ] 240.0 KiB (396.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   17.9% [#         ] 1016.3 KiB (792.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   12.6% [#         ] 64.0 KiB (150.6 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   72.2% [#######   ] 1.7 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   19.3% [#         ] 240.0 KiB (384.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   17.9% [#         ] 1016.3 KiB (780.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   12.6% [#         ] 64.0 KiB (143.8 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   79.0% [#######   ] 1.8 MiB (1.2 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   19.3% [#         ] 240.0 KiB (372.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   18.5% [#         ] 1.0 MiB (793.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   12.6% [#         ] 64.0 KiB (137.6 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   86.2% [########  ] 2.0 MiB (1.3 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   20.2% [##        ] 1.1 MiB (852.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   19.3% [#         ] 240.0 KiB (360.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   12.6% [#         ] 64.0 KiB (132.0 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   88.9% [########  ] 2.1 MiB (1.3 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   22.2% [##        ] 1.2 MiB (922.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   20.6% [##        ] 256.0 KiB (373.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   15.8% [#         ] 80.0 KiB (158.4 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   88.9% [########  ] 2.1 MiB (1.3 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   24.1% [##        ] 1.3 MiB (990.1 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   23.2% [##        ] 288.0 KiB (408.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   15.8% [#         ] 80.0 KiB (152.4 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   88.9% [########  ] 2.1 MiB (1.3 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   26.7% [##        ] 1.5 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   25.7% [##        ] 320.0 KiB (441.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   19.0% [#         ] 96.0 KiB (176.1 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   89.6% [########  ] 2.1 MiB (1.2 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   29.6% [##        ] 368.0 KiB (494.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   29.2% [##        ] 1.6 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   25.3% [##        ] 128.0 KiB (226.5 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K   96.1% [######### ] 2.2 MiB (1.3 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   32.2% [###       ] 400.0 KiB (522.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   31.8% [###       ] 1.8 MiB (1.2 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   28.5% [##        ] 144.0 KiB (246.2 KiB / s)
+[2A[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/common_2.12/4.7.6/common_2.12-4.7.6.jar
+[2K  100.0% [##########] 2.3 MiB (1.4 MiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   36.0% [###       ] 448.0 KiB (570.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   34.9% [###       ] 1.9 MiB (1.3 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   31.6% [###       ] 160.0 KiB (264.5 KiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   41.2% [####      ] 512.0 KiB (636.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   36.0% [###       ] 2.0 MiB (1.3 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   34.8% [###       ] 176.0 KiB (281.6 KiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   45.0% [####      ] 560.0 KiB (678.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   37.9% [###       ] 192.0 KiB (297.7 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   36.0% [###       ] 2.0 MiB (1.3 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   45.0% [####      ] 560.0 KiB (647.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   37.9% [###       ] 192.0 KiB (280.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   36.9% [###       ] 2.0 MiB (1.3 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   45.0% [####      ] 560.0 KiB (632.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   40.2% [####      ] 2.2 MiB (1.4 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   37.9% [###       ] 192.0 KiB (272.3 KiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   46.3% [####      ] 576.0 KiB (636.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   44.2% [####      ] 2.4 MiB (1.5 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   37.9% [###       ] 192.0 KiB (264.8 KiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   51.5% [#####     ] 640.0 KiB (691.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   48.2% [####      ] 2.7 MiB (1.7 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   41.1% [####      ] 208.0 KiB (279.2 KiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   56.6% [#####     ] 704.0 KiB (745.0 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   53.0% [#####     ] 2.9 MiB (1.8 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   47.4% [####      ] 240.0 KiB (313.7 KiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   63.1% [######    ] 784.0 KiB (812.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   56.3% [#####     ] 3.1 MiB (1.9 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   52.5% [#####     ] 265.8 KiB (338.6 KiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   69.5% [######    ] 864.0 KiB (877.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   58.9% [#####     ] 3.3 MiB (2.0 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   58.8% [#####     ] 297.8 KiB (370.0 KiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   75.6% [#######   ] 940.2 KiB (935.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   65.2% [######    ] 329.8 KiB (399.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   62.0% [######    ] 3.4 MiB (2.0 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   84.6% [########  ] 1.0 MiB (1.0 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   71.5% [#######   ] 361.8 KiB (428.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   62.8% [######    ] 3.5 MiB (2.0 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   92.4% [######### ] 1.1 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   81.0% [########  ] 409.8 KiB (473.8 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   62.8% [######    ] 3.5 MiB (2.0 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   94.9% [######### ] 1.2 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   87.3% [########  ] 441.8 KiB (499.2 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   63.1% [######    ] 3.5 MiB (2.0 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   94.9% [######### ] 1.2 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   90.5% [######### ] 457.8 KiB (505.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   64.0% [######    ] 3.5 MiB (2.0 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   94.9% [######### ] 1.2 MiB (1.0 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   90.5% [######### ] 457.8 KiB (494.9 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   67.4% [######    ] 3.7 MiB (2.1 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K   97.5% [######### ] 1.2 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   90.5% [######### ] 457.8 KiB (484.5 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   70.7% [#######   ] 3.9 MiB (2.2 MiB / s)
+[2A[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/parsers_2.12/4.7.6/parsers_2.12-4.7.6.jar
+[2K  100.0% [##########] 1.2 MiB (1.1 MiB / s)
+[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   90.5% [######### ] 457.8 KiB (474.4 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   75.3% [#######   ] 4.2 MiB (2.3 MiB / s)
+[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K   96.8% [######### ] 489.8 KiB (497.3 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   79.8% [#######   ] 4.4 MiB (2.4 MiB / s)
+[2A[2A[10000D[2Khttps://repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.12/0.11.1/metaconfig-core_2.12-0.11.1.jar
+[2K  100.0% [##########] 506.1 KiB (503.6 KiB / s)
+[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   83.2% [########  ] 4.6 MiB (2.5 MiB / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   85.7% [########  ] 4.7 MiB (2.5 MiB / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   88.5% [########  ] 4.9 MiB (2.6 MiB / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   89.7% [########  ] 5.0 MiB (2.6 MiB / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   90.2% [######### ] 5.0 MiB (2.5 MiB / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   91.1% [######### ] 5.0 MiB (2.5 MiB / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   94.5% [######### ] 5.2 MiB (2.6 MiB / s)
+[2A[10000D[2Khttps://repo1.maven.org/maven2/org/scalameta/trees_2.12/4.7.6/trees_2.12-4.7.6.jar
+[2K   98.1% [######### ] 5.4 MiB (2.7 MiB / s)
+[2A[10000D[2K[1B[2K[1B[2A
