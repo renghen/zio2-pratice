@@ -1,5 +1,4 @@
 up:
-	docker-compose up -d --renew-anon-volumes
-
+	docker-compose up -d
 down:
 	docker-compose down -v
