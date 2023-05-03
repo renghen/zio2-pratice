@@ -1,4 +1,4 @@
-package com.rentech.zio2
+package com.rentech.zio2.console
 
 import zio.*
 import zio.Console.*
