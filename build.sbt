@@ -1,5 +1,6 @@
-val scala3Version = "3.2.2"
-val zioVersion = "2.0.13"
+val scala3Version = "3.3.0"
+val zioVersion = "2.0.15"
+val quillVersion = "4.6.0.1"
 
 val expectyRepo = "Expecty Repository" at "https://raw.github.com/pniederw/expecty/master/m2repo/"
 val expecty = "org.expecty" % "expecty" % "0.10"
@@ -16,17 +17,19 @@ lazy val root = project
     libraryDependencies ++= Seq(
       "dev.zio" %% "zio" % zioVersion,
       "dev.zio" %% "zio-streams" % zioVersion,
-      "dev.zio" %% "zio-logging-slf4j" % "2.1.12",
-      "dev.zio" %% "zio-http" % "3.0.0-RC1",
+      "dev.zio" %% "zio-logging-slf4j" % "2.1.13",
+      "dev.zio" %% "zio-http" % "3.0.0-RC2",
       "dev.zio" %% "zio-direct" % "1.0.0-RC7",
-      "io.getquill" %% "quill-sql" % "4.6.0.1",
-      "io.getquill" %% "quill-jdbc" % "4.6.0.1",
-      "io.getquill" %% "quill-jdbc-zio" % "4.6.0.1",
+      "dev.zio" %% "zio-json" % "0.5.0",
+      "org.json4s" %% "json4s-native" % "4.1.0-M3",
+      "io.getquill" %% "quill-sql" % quillVersion,
+      "io.getquill" %% "quill-jdbc" % quillVersion,
+      "io.getquill" %% "quill-jdbc-zio" % quillVersion,
       "io.getquill" %% "quill-util" % "4.6.0",
-      "io.getquill" %% "quill-jasync" % "4.6.0.1",
+      "io.getquill" %% "quill-jasync" % quillVersion,
       "dev.zio" %% "zio-test" % zioVersion,
       expecty,
-      "org.scalameta" %% "munit" % "0.7.29" % Test
+      "org.scalameta" %% "munit" % "1.0.0-M8" % Test
     )
   )
 
