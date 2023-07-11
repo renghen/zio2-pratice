@@ -6,8 +6,7 @@ import zio.json.JsonDecoder
 object States {
   given decoder: JsonDecoder[State] =
     JsonDecoder[
-      (
-          String,
+      (String,
           Option[String],
           String,
           Option[Long],
@@ -23,28 +22,28 @@ object States {
           Option[Double],
           Option[String],
           Boolean,
-          Int
-      )
+          Int,
+        ),
     ].map {
       case (
-            icao24,
-            callsign,
-            originCountry,
-            timePosition,
-            lastContact,
-            longitude,
-            latitude,
-            baroAltitude,
-            onGround,
-            velocity,
-            trueTrack,
-            verticalRate,
-            sensors,
-            geoAltitude,
-            squawk,
-            spi,
-            positionSource
-          ) =>
+             icao24,
+             callsign,
+             originCountry,
+             timePosition,
+             lastContact,
+             longitude,
+             latitude,
+             baroAltitude,
+             onGround,
+             velocity,
+             trueTrack,
+             verticalRate,
+             sensors,
+             geoAltitude,
+             squawk,
+             spi,
+             positionSource,
+           ) =>
         State(
           icao24,
           callsign,
@@ -62,7 +61,7 @@ object States {
           geoAltitude,
           squawk,
           spi,
-          positionSource
+          positionSource,
         )
     }
 }

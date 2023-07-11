@@ -1,6 +1,7 @@
 val scala3Version = "3.3.0"
 val zioVersion = "2.0.15"
 val quillVersion = "4.6.0.1"
+val tapirVersion = "1.6.0"
 
 val expectyRepo = "Expecty Repository" at "https://raw.github.com/pniederw/expecty/master/m2repo/"
 val expecty = "org.expecty" % "expecty" % "0.10"
@@ -27,6 +28,13 @@ lazy val root = project
       "io.getquill" %% "quill-jdbc-zio" % quillVersion,
       "io.getquill" %% "quill-util" % "4.6.0",
       "io.getquill" %% "quill-jasync" % quillVersion,
+      "com.softwaremill.sttp.tapir" %% "tapir-zio-http-server" % tapirVersion,
+      "com.softwaremill.sttp.tapir" %% "tapir-prometheus-metrics" % tapirVersion,
+      "com.softwaremill.sttp.tapir" %% "tapir-swagger-ui-bundle" % tapirVersion,
+      "com.softwaremill.sttp.tapir" %% "tapir-json-zio" % tapirVersion,
+      "ch.qos.logback" % "logback-classic" % "1.4.8",
+      "dev.zio" %% "zio-logging" % "2.1.12",
+      "dev.zio" %% "zio-logging-slf4j" % "2.0.0",
       "dev.zio" %% "zio-test" % zioVersion,
       expecty,
       "org.scalameta" %% "munit" % "1.0.0-M8" % Test

@@ -4,19 +4,18 @@ import zio.*
 import zio.Console.*
 import zio.json.*
 import zio.stream.*
-import States.{given}
+import States.given
 import com.rentech.zio2.http.json.State
 import java.io.IOException
 import java.nio.charset.Charset
 
 object JsonStream101 extends ZIOAppDefault:
-
   val streamStatePipeline = {
     val stream = ZStream
       .fromResource("netherlands.json")
       .via(ZPipeline.decodeCharsWith(Charset.defaultCharset()))
       .via(
-        JsonDecoder[List[State]].decodeJsonPipeline(JsonStreamDelimiter.Newline)
+        JsonDecoder[List[State]].decodeJsonPipeline(JsonStreamDelimiter.Newline),
       )
       .flatMap(ZStream.fromIterable)
 
@@ -36,7 +35,7 @@ object JsonStream101 extends ZIOAppDefault:
 
   def run =
     for
-      _ <- printLine("streams...")
+      _      <- printLine("streams...")
       states <- streamStatePipeline
-      _ <- printLine(s"states count = ${states.size}")
+      _      <- printLine(s"states count = ${states.size}")
     yield ExitCode.success

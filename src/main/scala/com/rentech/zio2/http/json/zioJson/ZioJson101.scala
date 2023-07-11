@@ -2,7 +2,7 @@ package com.rentech.zio2.http.json.zioJson
 
 import zio.*
 import zio.json.*
-import States.{given}
+import States.given
 import com.rentech.zio2.http.json.State
 
 object ZioJson101 extends ZIOAppDefault:
@@ -12,6 +12,6 @@ object ZioJson101 extends ZIOAppDefault:
   def run =
     for
       state <- ZIO.fromEither(str.fromJson[Vector[State]])
-      _ <- Console.printLine("decoding sucessful...")
-      _ <- Console.printLine(s"state: $state")
+      _     <- Console.printLine("decoding sucessful...")
+      _     <- Console.printLine(s"state: $state")
     yield ExitCode.success

@@ -13,12 +13,11 @@ import org.json4s.JsonDSL.*
 
 object Json101 extends ZIOAppDefault {
 // Address(Awesome Stree,Super City)
-
   def run =
     for
-      jsonFile <- ZIO.attempt { getClass.getResource("/netherlands.json") }
-      str <- readLines(jsonFile.getPath()).orDie
-      _ <- Console.printLine(str)
+      jsonFile <- ZIO.attempt(getClass.getResource("/netherlands.json"))
+      str      <- readLines(jsonFile.getPath()).orDie
+      _        <- Console.printLine(str)
     // _ <- Console.printLine(compact(render(res)) )
     yield ()
 
@@ -34,5 +33,4 @@ object Json101 extends ZIOAppDefault {
 
     ZIO.acquireReleaseWith(acquireReader(file))(releaseReader)(readLines)
   }
-
 }

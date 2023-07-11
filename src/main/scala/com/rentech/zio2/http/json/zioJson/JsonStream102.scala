@@ -5,7 +5,7 @@ import zio.Console.*
 import zio.json.*
 import zio.json.ast.*
 import zio.stream.*
-import States.{given}
+import States.given
 import com.rentech.zio2.http.json.State
 
 import java.io.IOException
@@ -39,7 +39,7 @@ object JsonStream102 extends ZIOAppDefault:
         }
 
     val cursor: JsonCursor[Json, Arr] = JsonCursor.field("states").isArray
-    val jsonDecoder = JsonDecoder[Json].map(_.get(cursor))
+    val jsonDecoder                   = JsonDecoder[Json].map(_.get(cursor))
 
     for {
       arr <- jsonDecoder.decodeJsonStream(stream = stream).absolve
@@ -60,19 +60,19 @@ object JsonStream102 extends ZIOAppDefault:
         }
 
     val cursor: JsonCursor[Json, Arr] = JsonCursor.field("states").isArray
-    val jsonDecoder = JsonDecoder[Json].map(_.get(cursor))
+    val jsonDecoder                   = JsonDecoder[Json].map(_.get(cursor))
     ZStream
       .fromZIO(jsonDecoder.decodeJsonStream(stream = stream).absolve)
-      .flatMap { arr => ZStream.fromChunk(arr.elements) }
+      .flatMap(arr => ZStream.fromChunk(arr.elements))
       .mapZIO(json => ZIO.fromEither(JsonDecoder[State].fromJsonAST(json)))
-      .runCollect    
+      .runCollect
   }
 
   def run =
     for
-      _ <- printLine("streams...")
+      _      <- printLine("streams...")
       states <- streamStateAdvance
-      _ <- printLine(s"states count = ${states.length}")
+      _      <- printLine(s"states count = ${states.length}")
       keys = states.groupBy(_.originCountry).keys
       _ <- ZIO.foreach(keys)(printLine(_))
     yield ExitCode.success

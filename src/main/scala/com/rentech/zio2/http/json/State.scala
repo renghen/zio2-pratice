@@ -17,5 +17,4 @@ final case class State(
     geoAltitude: Option[Double],
     squawk: Option[String],
     spi: Boolean,
-    positionSource: Int
-)
+    positionSource: Int)
