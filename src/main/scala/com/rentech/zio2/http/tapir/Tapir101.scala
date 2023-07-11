@@ -4,6 +4,7 @@ package com.softwaremill
 
 import sttp.tapir.server.ziohttp.{ZioHttpInterpreter, ZioHttpServerOptions}
 import sttp.tapir.server.metrics.prometheus.PrometheusMetrics
+import sttp.tapir.swagger.bundle.SwaggerInterpreter
 import sttp.tapir.ztapir.ZServerEndpoint
 import sttp.tapir.*
 
@@ -13,16 +14,21 @@ import zio.logging.LogFormat
 import zio.logging.backend.SLF4J
 
 object Endpoints:
-  val prometheusMetrics: PrometheusMetrics[Task]               = PrometheusMetrics.default[Task]()
+  val prometheusMetrics: PrometheusMetrics[Task] = PrometheusMetrics.default[Task]()
+
   val helloEndpoint: PublicEndpoint[String, Unit, String, Any] = endpoint
     .get
     .in("hello")
     .in(query[String]("name"))
     .out(stringBody)
-  val helloServerEndpoint: ZServerEndpoint[Any, Any]           =
+
+  val helloServerEndpoint: ZServerEndpoint[Any, Any] =
     helloEndpoint.serverLogicSuccess(user => ZIO.succeed(s"Hello ${user}"))
 
-  val all = List(helloServerEndpoint)
+  val docEndpoints: List[ZServerEndpoint[Any, Any]] = SwaggerInterpreter()
+    .fromServerEndpoints[Task](List(helloServerEndpoint), "tapir101", "1.0.0")
+
+  val all = List(helloServerEndpoint) ++ docEndpoints
 object Main extends ZIOAppDefault:
   override val bootstrap: ZLayer[ZIOAppArgs, Any, Environment] =
     SLF4J.slf4j(LogLevel.Debug, LogFormat.default)
