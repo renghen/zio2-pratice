@@ -38,7 +38,8 @@ lazy val root = project
       "dev.zio" %% "zio-test" % zioVersion,
       expecty,
       "org.scalameta" %% "munit" % "1.0.0-M8" % Test
-    )
+    ),
+    // scalacOptions ++= Seq("-deprecation", "-feature")
   )
 
 addCommandAlias("fmt", "scalafmt; Test / scalafmt;")
