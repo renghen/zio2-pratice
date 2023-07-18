@@ -26,6 +26,6 @@ object Models:
 
   def getAll(): ZIO[Any, Throwable, String] = // send(requestAll).provide(ZLayer.fromZIO(backend))
     for {
-      resEither <- rAll      
+      resEither <- rAll
       body      <- ZIO.fromEither(resEither.body).mapError(err => Exception("could not get data"))
     } yield body
