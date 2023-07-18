@@ -1,7 +1,5 @@
 package com.rentech.zio2.http.tapir
 
-package com.softwaremill
-
 import sttp.tapir.server.ziohttp.{ZioHttpInterpreter, ZioHttpServerOptions}
 import sttp.tapir.server.metrics.prometheus.PrometheusMetrics
 import sttp.tapir.swagger.bundle.SwaggerInterpreter
@@ -9,6 +7,7 @@ import sttp.tapir.ztapir.ZServerEndpoint
 import sttp.tapir.*
 
 import zio.{Console, LogLevel, Scope, Task, ZIO, ZIOAppArgs, ZIOAppDefault, ZLayer}
+import Console.*
 import zio.http.{HttpApp, Server}
 import zio.logging.LogFormat
 import zio.logging.backend.SLF4J
@@ -22,13 +21,24 @@ object Endpoints:
     .in(query[String]("name"))
     .out(stringBody)
 
+  val helloEndpoint2: PublicEndpoint[String, Unit, String, Any] = endpoint
+    .get
+    .in("hello2")
+    .in(query[String]("name"))
+    .out(stringBody)
+
   val helloServerEndpoint: ZServerEndpoint[Any, Any] =
     helloEndpoint.serverLogicSuccess(user => ZIO.succeed(s"Hello ${user}"))
 
-  val docEndpoints: List[ZServerEndpoint[Any, Any]] = SwaggerInterpreter()
-    .fromServerEndpoints[Task](List(helloServerEndpoint), "tapir101", "1.0.0")
+  val helloServerEndpoint2: ZServerEndpoint[Any, Any] =
+    helloEndpoint2.serverLogicSuccess(user => ZIO.succeed(s"Hello ${user.toUpperCase()}"))
 
-  val all = List(helloServerEndpoint) ++ docEndpoints
+  val docEndpoints: List[ZServerEndpoint[Any, Any]] = SwaggerInterpreter()
+    .fromServerEndpoints[Task](List(helloServerEndpoint, helloServerEndpoint2), "tapir101", "1.0.0")
+
+  val all = List(helloServerEndpoint, helloServerEndpoint2) ++ docEndpoints
+end Endpoints
+
 object Main extends ZIOAppDefault:
   override val bootstrap: ZLayer[ZIOAppArgs, Any, Environment] =
     SLF4J.slf4j(LogLevel.Debug, LogFormat.default)
@@ -47,10 +57,10 @@ object Main extends ZIOAppDefault:
     (
       for
         actualPort <- Server.install(app.withDefaultErrorResponse)
-        _          <- Console.printLine(
+        _          <- printLine(
           s"Go to http://localhost:${actualPort}/docs to open SwaggerUI. Press ENTER key to exit.",
         )
-        _          <- Console.readLine
+        _          <- readLine
       yield ()
     ).provide(
       Server.defaultWithPort(port),
