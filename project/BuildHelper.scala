@@ -10,7 +10,8 @@ object BuildHelper {
     case Some((2, 12)) | Some((2, 13)) => Seq("-Ywarn-unused:params")
     case _                             => Seq.empty
   }
-  def stdSettings                          = Seq(
+
+  def stdSettings = Seq(
     ThisBuild / fork              := true,
     ThisBuild / scalaVersion      := ScalaVersion,
     ThisBuild / scalacOptions     := commonSettings(scalaVersion.value),

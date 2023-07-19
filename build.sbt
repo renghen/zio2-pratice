@@ -9,10 +9,10 @@ resolvers += expectyRepo
 
 lazy val root = project
   .in(file("."))
+  .settings(BuildHelper.stdSettings)
   .settings(
     name         := "zio2-pratice",
-    version      := "0.1.0",
-    scalaVersion := "3.3.0",
+    version      := "0.1.0",   
     libraryDependencies ++= Seq(
       "dev.zio"                       %% "zio"                           % zioVersion,
       "dev.zio"                       %% "zio-streams"                   % zioVersion,

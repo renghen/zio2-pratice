@@ -2,6 +2,7 @@ package com.rentech.zio2.http.json.json4s
 
 import org.json4s.*
 import org.json4s.native.Serialization.{read, write}
+
 import com.rentech.zio2.http.json.State
 
 //   val state: List[String | Int] = List(

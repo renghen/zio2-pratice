@@ -1,13 +1,16 @@
 package com.rentech.zio2.http.json.zioJson
 
-import zio.*
-import zio.Console.*
-import zio.json.*
-import zio.stream.*
-import States.given
-import com.rentech.zio2.http.json.State
 import java.io.IOException
 import java.nio.charset.Charset
+
+import zio.Console.*
+import zio.*
+import zio.json.*
+import zio.stream.*
+
+import com.rentech.zio2.http.json.State
+
+import States.given
 
 object JsonStream101 extends ZIOAppDefault:
   val streamStatePipeline = {

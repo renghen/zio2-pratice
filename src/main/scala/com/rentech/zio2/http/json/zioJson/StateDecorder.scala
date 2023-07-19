@@ -1,7 +1,8 @@
 package com.rentech.zio2.http.json.zioJson
 
-import com.rentech.zio2.http.json.State
 import zio.json.JsonDecoder
+
+import com.rentech.zio2.http.json.State
 
 object States {
   given decoder: JsonDecoder[State] =

@@ -2,8 +2,10 @@ package com.rentech.zio2.http.json.zioJson
 
 import zio.*
 import zio.json.*
-import States.given
+
 import com.rentech.zio2.http.json.State
+
+import States.given
 
 object ZioJson101 extends ZIOAppDefault:
   val str =

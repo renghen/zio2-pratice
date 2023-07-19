@@ -61,12 +61,11 @@ object Routes:
     allEndpoint.serverLogicSuccess(_ => Models.getAll())
 
   val ageServerEndPoint: ZServerEndpoint[Any, Any] =
-    ageEndPoint.zServerLogic { age =>
-      age match
-        case i if i < 18  => ZIO.fail(AgeError.WrongValue("age cannot be less than 18"))
-        case i if i > 140 => ZIO.fail(AgeError.WrongValue("age cannot be greater than 140"))
-        case _            => ZIO.succeed(s"age is $age")
-    }
+    ageEndPoint.zServerLogic: age =>
+      if age < 18 then ZIO.fail(AgeError.WrongValue("age cannot be less than 18"))
+      else if age > 140 then ZIO.fail(AgeError.WrongValue("age cannot be greater than 140"))
+      else ZIO.succeed(s"age is $age")
+    
 
   val docEndpoints: List[ZServerEndpoint[Any, Any]] = SwaggerInterpreter()
     .fromServerEndpoints[Task](

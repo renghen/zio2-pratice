@@ -1,18 +1,19 @@
 package com.rentech.zio2.http.json.zioJson
 
-import zio.*
-import zio.Console.*
-import zio.json.*
-import zio.json.ast.*
-import zio.stream.*
-import States.given
-import com.rentech.zio2.http.json.State
-
 import java.io.IOException
 import java.nio.charset.Charset
-import com.rentech.zio2.http.json.json4s.json4s101.str
+
+import zio.Console.*
+import zio.*
+import zio.json.*
 import zio.json.ast.Json.Arr
-import com.rentech.zio2.http.json.json4s.json4s101.state
+import zio.json.ast.*
+import zio.stream.*
+
+import com.rentech.zio2.http.json.State
+import com.rentech.zio2.http.json.json4s.json4s101.{state, str}
+
+import States.given
 
 object JsonStream102 extends ZIOAppDefault:
 

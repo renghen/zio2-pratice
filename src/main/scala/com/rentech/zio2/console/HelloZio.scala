@@ -1,8 +1,9 @@
 package com.rentech.zio2.console
 
-import zio.*
-import zio.Console.*
 import java.io.IOException
+
+import zio.Console.*
+import zio.*
 
 object MyApp extends ZIOAppDefault:
   def run: ZIO[Environment & ZIOAppArgs & Scope, Any, Any] = myAppLogic
