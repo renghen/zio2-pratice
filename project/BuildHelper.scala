@@ -16,10 +16,6 @@ object BuildHelper {
     ThisBuild / scalaVersion      := ScalaVersion,
     ThisBuild / scalacOptions     := commonSettings(scalaVersion.value),
     ThisBuild / semanticdbEnabled := true,
-    ThisBuild / semanticdbVersion := scalafixSemanticdb.revision,
-    ThisBuild / scalafixDependencies ++=
-      List(
-        "com.github.liancheng" %% "organize-imports" % "0.6.0",
-      ),
+    ThisBuild / semanticdbVersion := scalafixSemanticdb.revision    
   )
 }

@@ -1,20 +1,15 @@
 package com.rentech.zio2.http.tapir.tapir102
 
-import sttp.tapir.{emptyOutputAs, endpoint, oneOf, oneOfVariant, query, statusCode, stringBody}
-import sttp.tapir.PublicEndpoint
-
+import sttp.model.StatusCode
+import sttp.tapir.generic.auto.*
 import sttp.tapir.given
 import sttp.tapir.json.zio.*
-import sttp.tapir.generic.auto.*
-
 import sttp.tapir.server.metrics.prometheus.PrometheusMetrics
 import sttp.tapir.swagger.bundle.SwaggerInterpreter
 import sttp.tapir.ztapir.{RichZEndpoint, ZServerEndpoint}
-
-import zio.{Task, ZIO}
+import sttp.tapir.{PublicEndpoint, emptyOutputAs, endpoint, oneOf, oneOfVariant, query, statusCode, stringBody}
 import zio.json.*
-
-import sttp.model.StatusCode
+import zio.{Task, ZIO}
 
 enum AgeError:
   case WrongValue(invalid: String)
