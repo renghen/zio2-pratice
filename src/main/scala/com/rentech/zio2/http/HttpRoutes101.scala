@@ -1,7 +1,8 @@
 package com.rentech.zio2.http
 
-import zio.*
 import zio.http.*
+
+import zio.*
 
 object HttpRoutes101 extends ZIOAppDefault:
   val app = Http.collect[Request] {

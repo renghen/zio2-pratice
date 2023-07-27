@@ -3,11 +3,10 @@ package com.rentech.zio2.http.json
 import java.io.{BufferedReader, FileReader}
 import java.net.URL
 
-import scala.jdk.StreamConverters.*
-
 import org.json4s.JsonDSL.*
 import org.json4s.*
 import org.json4s.native.JsonMethods.*
+import scala.jdk.StreamConverters.*
 import zio.*
 
 object Json101 extends ZIOAppDefault {

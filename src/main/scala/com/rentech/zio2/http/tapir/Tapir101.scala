@@ -5,9 +5,12 @@ import sttp.tapir.server.metrics.prometheus.PrometheusMetrics
 import sttp.tapir.server.ziohttp.{ZioHttpInterpreter, ZioHttpServerOptions}
 import sttp.tapir.swagger.bundle.SwaggerInterpreter
 import sttp.tapir.ztapir.ZServerEndpoint
-import zio.http.{HttpApp, Server}
+
 import zio.logging.LogFormat
 import zio.logging.backend.SLF4J
+
+import zio.http.{HttpApp, Server}
+
 import zio.{Console, LogLevel, Scope, Task, ZIO, ZIOAppArgs, ZIOAppDefault, ZLayer}
 
 import Console.*

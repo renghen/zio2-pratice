@@ -2,11 +2,14 @@ package com.rentech.zio2.http.tapir.tapir102
 
 import sttp.client3.*
 import sttp.client3.httpclient.zio.{HttpClientZioBackend, send}
+
 import sttp.tapir.client.sttp.SttpClientInterpreter
 import sttp.tapir.client.sttp.ws.zio.*
 import sttp.tapir.endpoint
 import sttp.tapir.given
+
 import zio.http.Status.NotFound
+
 import zio.{ZIO, ZLayer}
 
 object Models:

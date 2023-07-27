@@ -1,7 +1,8 @@
 package com.rentech.zio2.http.client
 
-import zio._
 import zio.http.Client
+
+import zio._
 
 object SimpleClient extends ZIOAppDefault {
   val url = "https://opensky-network.org/api/states/all"

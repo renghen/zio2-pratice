@@ -1,9 +1,12 @@
 package com.rentech.zio2.http.tapir.tapir102
 
 import sttp.tapir.server.ziohttp.{ZioHttpInterpreter, ZioHttpServerOptions}
-import zio.http.{HttpApp, Server}
+
 import zio.logging.LogFormat
 import zio.logging.backend.SLF4J
+
+import zio.http.{HttpApp, Server}
+
 import zio.{Console, LogLevel, Scope, Task, ZIO, ZIOAppArgs, ZIOAppDefault, ZLayer}
 
 object Main extends ZIOAppDefault:
