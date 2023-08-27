@@ -35,3 +35,7 @@ object Main extends ZIOAppDefault:
     }.provide(
       Server.defaultWithPort(port),
     ).exitCode
+
+  end run
+
+end Main

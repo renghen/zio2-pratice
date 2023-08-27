@@ -1,10 +1,10 @@
 package com.rentech.zio2.http.json.json4s
 
+import com.rentech.zio2.http.json.State
+
 import org.json4s.JsonDSL.*
 import org.json4s.*
 import org.json4s.native.*
-
-import com.rentech.zio2.http.json.State
 
 given formats: Formats = DefaultFormats
 
@@ -44,7 +44,7 @@ class StateSerializer
               velocity,
               trueTrack,
               verticalRate,
-              sensors.flatMap(lst => if (lst.isEmpty) None else Some(lst)),
+              sensors.flatMap(lst => if lst.isEmpty then None else Some(lst)),
               geoAltitude,
               squawk,
               spi,

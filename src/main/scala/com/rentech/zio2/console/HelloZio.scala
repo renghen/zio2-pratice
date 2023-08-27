@@ -14,4 +14,5 @@ object MyApp extends ZIOAppDefault:
       name <- readLine
       _    <- printLine(s"Hello, ${name}, welcome to ZIO!")
     yield ()
+
 end MyApp

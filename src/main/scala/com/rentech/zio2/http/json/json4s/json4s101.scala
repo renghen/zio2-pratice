@@ -1,9 +1,9 @@
 package com.rentech.zio2.http.json.json4s
 
+import com.rentech.zio2.http.json.State
+
 import org.json4s.*
 import org.json4s.native.Serialization.{read, write}
-
-import com.rentech.zio2.http.json.State
 
 //   val state: List[String | Int] = List(
 //     "aa441c",
@@ -12,7 +12,7 @@ import com.rentech.zio2.http.json.State
 //     0
 //   )
 
-object json4s101 extends App {
+object json4s101 extends App:
   implicit val formats: Formats = DefaultFormats + new StateSerializer
 // val str = write[Address](Address("Awesome Stree", "Super City"))
 // {"Street":"Awesome Stree","City":"Super City"}
@@ -23,4 +23,5 @@ object json4s101 extends App {
   val state = read[State](str)
   println(state)
   println(write(state))
-}
+
+end json4s101

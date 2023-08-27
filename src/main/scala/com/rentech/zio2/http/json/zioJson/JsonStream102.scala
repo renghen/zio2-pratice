@@ -3,15 +3,15 @@ package com.rentech.zio2.http.json.zioJson
 import java.io.IOException
 import java.nio.charset.Charset
 
+import com.rentech.zio2.http.json.State
+import com.rentech.zio2.http.json.json4s.json4s101.{state, str}
+
 import zio.Console.*
 import zio.*
 import zio.json.*
 import zio.json.ast.Json.Arr
 import zio.json.ast.*
 import zio.stream.*
-
-import com.rentech.zio2.http.json.State
-import com.rentech.zio2.http.json.json4s.json4s101.{state, str}
 
 import States.given
 
@@ -30,7 +30,7 @@ object JsonStream102 extends ZIOAppDefault:
     stream.runCollect.map(s => s.toList)
   }
    */
-  val streamStateNormal = {
+  val streamStateNormal =
     val stream =
       ZStream
         .fromResource("all.json")
@@ -42,16 +42,19 @@ object JsonStream102 extends ZIOAppDefault:
     val cursor: JsonCursor[Json, Arr] = JsonCursor.field("states").isArray
     val jsonDecoder                   = JsonDecoder[Json].map(_.get(cursor))
 
-    for {
+    for
       arr <- jsonDecoder.decodeJsonStream(stream = stream).absolve
       lst = arr.elements
       result <- ZIO.foreach(lst) { el =>
         ZIO.fromEither(JsonDecoder[State].fromJsonAST(el))
       }
-    } yield result
-  }
+    yield result
 
-  val streamStateAdvance = {
+    end for
+
+  end streamStateNormal
+
+  val streamStateAdvance =
     val stream =
       ZStream
         .fromResource("all.json")
@@ -67,7 +70,8 @@ object JsonStream102 extends ZIOAppDefault:
       .flatMap(arr => ZStream.fromChunk(arr.elements))
       .mapZIO(json => ZIO.fromEither(JsonDecoder[State].fromJsonAST(json)))
       .runCollect
-  }
+
+  end streamStateAdvance
 
   def run =
     for
@@ -77,3 +81,5 @@ object JsonStream102 extends ZIOAppDefault:
       keys = states.groupBy(_.originCountry).keys
       _ <- ZIO.foreach(keys)(printLine(_))
     yield ExitCode.success
+
+end JsonStream102

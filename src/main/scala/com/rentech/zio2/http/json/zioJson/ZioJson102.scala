@@ -7,6 +7,7 @@ final case class FooAction(action: String)
 object FooAction:
   given JsonDecoder[FooAction] = DeriveJsonDecoder.gen[FooAction]
   given JsonEncoder[FooAction] = DeriveJsonEncoder.gen[FooAction]
+
 end FooAction
 
 object ZioJson102 extends App:
@@ -17,5 +18,5 @@ object ZioJson102 extends App:
 
   val fooAction = json.fromJson
   println(fooAction)
-  
-end ZioJson102  
+
+end ZioJson102

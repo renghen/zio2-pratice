@@ -9,7 +9,7 @@ import org.json4s.native.JsonMethods.*
 import scala.jdk.StreamConverters.*
 import zio.*
 
-object Json101 extends ZIOAppDefault {
+object Json101 extends ZIOAppDefault:
 // Address(Awesome Stree,Super City)
   def run =
     for
@@ -19,7 +19,7 @@ object Json101 extends ZIOAppDefault {
     // _ <- Console.printLine(compact(render(res)) )
     yield ()
 
-  def readLines(file: String): Task[String] = {
+  def readLines(file: String): Task[String] =
     def readLines(reader: BufferedReader): Task[String] =
       ZIO.attempt(reader.lines().toScala(Vector).mkString("\n"))
 
@@ -30,5 +30,7 @@ object Json101 extends ZIOAppDefault {
       ZIO.attempt(new BufferedReader(new FileReader(file), 2048))
 
     ZIO.acquireReleaseWith(acquireReader(file))(releaseReader)(readLines)
-  }
-}
+
+  end readLines
+
+end Json101

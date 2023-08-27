@@ -40,6 +40,7 @@ object Endpoints:
     .fromServerEndpoints[Task](List(helloServerEndpoint, helloServerEndpoint2), "tapir101", "1.0.0")
 
   val all = List(helloServerEndpoint, helloServerEndpoint2) ++ docEndpoints
+
 end Endpoints
 
 object Main extends ZIOAppDefault:
@@ -68,3 +69,7 @@ object Main extends ZIOAppDefault:
     ).provide(
       Server.defaultWithPort(port),
     ).exitCode
+
+  end run
+
+end Main

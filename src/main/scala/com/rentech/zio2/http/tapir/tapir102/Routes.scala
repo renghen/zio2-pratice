@@ -6,7 +6,16 @@ import sttp.tapir.json.zio.*
 import sttp.tapir.server.metrics.prometheus.PrometheusMetrics
 import sttp.tapir.swagger.bundle.SwaggerInterpreter
 import sttp.tapir.ztapir.{RichZEndpoint, ZServerEndpoint}
-import sttp.tapir.{PublicEndpoint, emptyOutputAs, endpoint, oneOf, oneOfVariant, query, statusCode, stringBody}
+import sttp.tapir.{
+  emptyOutputAs,
+  endpoint,
+  oneOf,
+  oneOfVariant,
+  query,
+  statusCode,
+  stringBody,
+  PublicEndpoint,
+}
 
 import sttp.model.StatusCode
 import zio.json.*
@@ -14,11 +23,13 @@ import zio.{Task, ZIO}
 
 enum AgeError:
   case WrongValue(invalid: String)
+
 end AgeError
 
 object AgeError:
   given wrongValueEncoder: zio.json.JsonEncoder[WrongValue] = DeriveJsonEncoder.gen[WrongValue]
   given wrongValueDecoder: zio.json.JsonDecoder[WrongValue] = DeriveJsonDecoder.gen[WrongValue]
+
 end AgeError
 
 object Routes:
@@ -70,3 +81,5 @@ object Routes:
     )
 
   val all = List(helloServerEndpoint, allServerEndpoint, ageServerEndPoint) ++ docEndpoints
+
+end Routes

@@ -1,10 +1,10 @@
 package com.rentech.zio2.http.json.zioJson
 
-import zio.json.JsonDecoder
-
 import com.rentech.zio2.http.json.State
 
-object States {
+import zio.json.JsonDecoder
+
+object States:
   given decoder: JsonDecoder[State] =
     JsonDecoder[
       (String,
@@ -65,4 +65,5 @@ object States {
           positionSource,
         )
     }
-}
+
+end States

@@ -11,8 +11,8 @@ lazy val root = project
   .in(file("."))
   .settings(BuildHelper.stdSettings)
   .settings(
-    name         := "zio2-pratice",
-    version      := "0.1.0",   
+    name    := "zio2-pratice",
+    version := "0.1.0",
     libraryDependencies ++= Seq(
       "dev.zio"                       %% "zio"                           % zioVersion,
       "dev.zio"                       %% "zio-streams"                   % zioVersion,
@@ -32,6 +32,7 @@ lazy val root = project
       "com.softwaremill.sttp.tapir"   %% "tapir-json-zio"                % tapirVersion,
       "com.softwaremill.sttp.client3" %% "async-http-client-backend-zio" % "3.8.16",
       "com.softwaremill.sttp.tapir"   %% "tapir-sttp-client"             % tapirVersion,
+      "io.github.iltotore"            %% "iron"                          % "2.2.1",
       "ch.qos.logback"                 % "logback-classic"               % "1.4.8",
       "dev.zio"                       %% "zio-logging"                   % "2.1.12",
       "dev.zio"                       %% "zio-logging-slf4j"             % "2.0.0",

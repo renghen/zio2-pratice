@@ -11,3 +11,5 @@ object HttpRoutes101 extends ZIOAppDefault:
   }
 
   override def run = Server.serve(app).provide(Server.defaultWithPort(8090))
+
+end HttpRoutes101
